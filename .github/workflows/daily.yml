@@ -1,0 +1,35 @@
+name: Run daily question
+on:
+  workflow_dispatch:
+  schedule:
+    # Uncomment to start Daily, M-F cron schedule
+    # - cron: '0 0 * * 1-5'
+
+jobs:
+  pull_data:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      # If using Python:
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.8"
+
+      # If using Python:
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # If using Python:
+      - name: Run Daily Challenge
+        run: python3 daily_challenge.py
+        env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+          COMMUNITY_ID: ${{ secrets.COMMUNITY_ID }}
+          CIRCLE_COMMUNITY_PATH: ${{ secrets.CIRCLE_COMMUNITY_PATH }}
+          DAILY_SPACE_ID: ${{ secrets.DAILY_SPACE_ID }}

@@ -1,0 +1,21 @@
+---
+
+'2':
+  title: 'Common Prefix Problem'
+  difficulty: 'Beginner'
+  body: |
+    <strong>This link is a great beginner-level algorithm focused on strings!</strong><br>
+    Write a function to find the longest common prefix string amongst an array of strings. <br>
+    If there is no common prefix, return an empty string "".<br>
+    <br>
+    <a href="https://leetcode.com/problems/longest-common-prefix/" target="_blank">🎄Tree Algo Link!</a>
+  author_name: 'Kristal'
+
+
+'1':
+  title: 'Test title for my yaml post'
+  difficulty: 'Advanced'
+  body: |
+    Blank lines denote
+    paragraph breaks
+
