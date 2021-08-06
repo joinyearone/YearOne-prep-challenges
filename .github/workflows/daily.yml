@@ -1,8 +1,8 @@
 name: Run daily question
-on:
-  workflow_dispatch:
-  schedule:
-    # Uncomment to start Daily, M-F cron schedule
+on: workflow_dispatch
+# Uncomment to start Daily, M-F cron schedule
+#   workflow_dispatch:
+#   schedule:
     # - cron: '0 0 * * 1-5'
 
 jobs:
