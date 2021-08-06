@@ -1,5 +1,5 @@
 # YearOne Interview Prep
-![YearOne](https://imgur.com/36NF1DV)
+![YearOne](https://imgur.com/36NF1DV.jpg)
 
 This repo is where we host our open-source interview prep topics and actions that post to the YearOne community. We're open to contributions on the code, interview prep topics & new features! 
 
