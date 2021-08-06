@@ -1,5 +1,5 @@
 # YearOne Interview Prep
-[YearOne](https://imgur.com/36NF1DV)
+![YearOne](https://imgur.com/36NF1DV)
 
 This repo is where we host our open-source interview prep topics and actions that post to the YearOne community. We're open to contributions on the code, interview prep topics & new features! 
 
@@ -14,7 +14,7 @@ Join our community at [joinyearone.io](https://joinyearone.io)
 > To get started...
 
 1. 🍴 [Fork](https://github.com/KGmajor/YearOne-prep-challenges/fork) this repository
-2. 🔨 View our [contributing guidelines](.github/CONTRIBUTING.MD)
+2. 🔨 View our [contributing guidelines](https://github.com/KGmajor/YearOne-prep-challenges/blob/main/.github/CONTRIBUTING.md)
 3. 🎉 [Open a new pull request](https://github.com/KGmajor/YearOne-prep-challenges/compare) and get it approved!
 
 You can even [report a bug or request a feature](https://github.com/KGmajor/YearOne-prep-challenges/issues/new) - any little bit of help counts! 😊
