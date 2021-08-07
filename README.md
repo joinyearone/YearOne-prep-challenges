@@ -15,7 +15,8 @@ Join our community at [joinyearone.io](https://joinyearone.io)
 
 1. 🍴 [Fork](https://github.com/KGmajor/YearOne-prep-challenges/fork) this repository
 2. 🔨 View our [contributing guidelines](https://github.com/KGmajor/YearOne-prep-challenges/blob/main/.github/CONTRIBUTING.md)
-3. 🎉 [Open a new pull request](https://github.com/KGmajor/YearOne-prep-challenges/compare) and get it approved!
+3. 📚 [Contribute a new interview prep topic](https://github.com/KGmajor/YearOne-prep-challenges/blob/main/.github/CONTRIBUTING.md#contributing-content) or check out our open [issues.](https://github.com/YearOne-Prep/YearOne-prep-challenges/issues)
+4. 🎉 [Open a new pull request](https://github.com/KGmajor/YearOne-prep-challenges/compare) and get it approved!
 
 You can even [report a bug or request a feature](https://github.com/KGmajor/YearOne-prep-challenges/issues/new) - any little bit of help counts! 😊
 

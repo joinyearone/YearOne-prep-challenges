@@ -11,6 +11,7 @@ The following is a set of guidelines for contributing to this project, which is 
 **Table of Contents**
 
 - [Contributing Content](#contributing-content)
+- [Tackling an Issue](#tackling-an-issue)
 - [Reporting Bugs](#reporting-bugs)
 - [Suggesting Enhancements](#suggesting-enhancements)
 - [Pull Requests](#pull-requests)
@@ -54,6 +55,21 @@ Follow the formatting of the existing yaml file and the details below. Find out 
 
 ```
 
+## Tackling an Issue
+
+As an open-source project, we'll have open [issues](https://github.com/YearOne-Prep/YearOne-prep-challenges/issues) that list out our enhancement and bug-fixes that need support. If you see one that you'd be willing to help with, here are the steps you should take:
+
+- Step 1:
+  - Find the ticket that you'd like to handle. 
+- Step 2:
+  - Make sure the ticket has all the information you need to get started. Post comments if you need more clarity or direction. 
+- Step 3:
+  - When you're ready to take on the ticket, comment that you're working on it. The ticket will then get assigned to you by a maintainer. 
+- Step 4:
+  - When your code or solution is ready for review, open your pull request for review. 
+  - (optional) Link the Issue to your Pull Request in the right side-bar of the issue itself. 
+- Step 5:
+  - Merge that PR when it's approved and we'll close out the issue! 
 
 ## Reporting Bugs
 
