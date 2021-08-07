@@ -1,8 +1,9 @@
-import requests
 import json
 import os
 from datetime import date
 from pprint import pprint
+
+import requests
 
 API_TOKEN = os.environ.get("API_TOKEN")
 COMMUNITY_ID = os.environ.get("COMMUNITY_ID")
