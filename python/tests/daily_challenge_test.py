@@ -1,4 +1,5 @@
 import pytest
+
 from .. import daily_challenge
 
 
