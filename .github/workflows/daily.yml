@@ -27,7 +27,7 @@ jobs:
 
       # If using Python:
       - name: Run Daily Challenge
-        run: python3 daily_challenge.py
+        run: python3 ./python/daily_challenge.py
         env:
           API_TOKEN: ${{ secrets.API_TOKEN }}
           COMMUNITY_ID: ${{ secrets.COMMUNITY_ID }}
