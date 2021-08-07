@@ -2,7 +2,6 @@ import random
 from pprint import pprint
 
 import py_actions
-import yaml
 
 
 def random_topic_chooser():
@@ -19,18 +18,16 @@ def random_topic_chooser():
             return topic
         else:
             return choose_random_topic(data)
+    try:   
+        data = py_actions.read_topics_yaml()
+        topic_number = choose_random_topic(data)
 
-    with open("./topics.yaml", "r") as stream:
-        try:
-            data = yaml.safe_load(stream)
-            topic = choose_random_topic(data)
-
-            return data[topic]
-        except yaml.YAMLError as exc:
-            raise yaml.YAMLError(f"{exc}")
+        return topic_number, data[topic_number]
+    except Exception as e:
+        return e
 
 
-def format_post_body(topic, post_num):
+def format_post_body(topic, topic_number):
     """
     Format text body to include standardized text:
     Example:
@@ -40,12 +37,8 @@ def format_post_body(topic, post_num):
 
     """
     try:
-        post_num += 1
         topic_title = topic["title"]
-
-        # TODO this formatted string creates an error in the posting, but we should figure it out
-        # title = f"Daily Challenge #{post_num}: {topic_title}"
-
+        title = f"Daily Challenge #{topic_number}: {topic_title}"
         body = topic["body"]
         difficulty = topic["difficulty"]
         source = topic["source"] if "source" in topic else None
@@ -66,7 +59,7 @@ def format_post_body(topic, post_num):
 
         post_body = "".join(pre_body) + body + end_body
 
-        return (topic_title, post_body, author_email)
+        return (title, post_body, author_email)
     except KeyError as e:
         return e
     except TypeError as f:
@@ -78,14 +71,14 @@ def actions():
     Calls required functions to choose topic, format text body, and post to Circle.
     """
     try:
-        topic = random_topic_chooser()
+        topic_number, topic_data = random_topic_chooser()
 
-        post_num = py_actions.get_post_count(py_actions.DAILY_SPACE_ID)
+        title, post_body, author_email = format_post_body(topic_data, topic_number)
 
-        title, post_body, author_email = format_post_body(topic, post_num)
+        print(title, post_body, author_email)
 
-        py_actions.post_to_circle(py_actions.DAILY_SPACE_ID, title, post_body,
-                                  author_email)
+        # py_actions.post_to_circle(py_actions.DAILY_SPACE_ID, title, post_body,
+        #                           author_email)
 
     except Exception as e:
         return e

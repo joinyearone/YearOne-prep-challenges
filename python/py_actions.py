@@ -1,5 +1,7 @@
 import json
 import os
+import yaml
+
 from datetime import date
 from pprint import pprint
 
@@ -9,6 +11,25 @@ API_TOKEN = os.environ.get("API_TOKEN")
 COMMUNITY_ID = os.environ.get("COMMUNITY_ID")
 CIRCLE_COMMUNITY_PATH = os.environ.get("CIRCLE_COMMUNITY_PATH")
 DAILY_SPACE_ID = os.environ.get("DAILY_SPACE_ID")
+TOPICS_PATH = "./topics.yaml"
+
+
+def read_topics_yaml(yml_file=TOPICS_PATH):
+    """
+    Opens and reads a yml file, defaults to the topics yaml, if another file path isn't passed to the function.
+    """
+    
+    try:
+        with open(yml_file, "r") as stream:
+            
+                data = yaml.safe_load(stream)
+                return data
+
+    except TypeError as e:
+        return TypeError(e)
+    except yaml.YAMLError as exc:
+        raise yaml.YAMLError(f"{exc}")
+
 
 
 def post_to_circle(space_id, title_text, body_message, author_email=None):
@@ -46,6 +67,9 @@ def post_to_circle(space_id, title_text, body_message, author_email=None):
 
 
 def get_post_count(space_id):
+    """
+    Sends a call to the circle community call see how many posts have been posted. 
+    """
 
     url = f"{CIRCLE_COMMUNITY_PATH}/api/v1/posts?community_id={COMMUNITY_ID}&space_id={space_id}"
 

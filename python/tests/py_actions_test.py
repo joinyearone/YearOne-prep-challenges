@@ -19,3 +19,13 @@ class Test_Py_actions_Post_to_circle:
             "email@Google.com",
         )
         assert pytest.raises(Exception)
+
+class Test_Py_actions_read_topics_yaml:
+    def test_read_topics_yaml(self):
+        result = python.py_actions.read_topics_yaml()
+        assert isinstance(result, dict)
+        assert all([result['1'], result['1']['title'], result['1']['body'], result['1']['source']])
+
+    def test_read_topics_yaml_fail(self):
+        result = python.py_actions.read_topics_yaml({})
+        assert pytest.raises(Exception)
