@@ -19,8 +19,7 @@ def random_topic_chooser():
             return topic
         else:
             return choose_random_topic(data)
-
-    with open("topics.yaml", 'r') as stream:
+    with open("./topics.yaml", 'r') as stream:
         try:
             data = yaml.safe_load(stream)
             topic = choose_random_topic(data)
@@ -66,6 +65,8 @@ def format_post_body(topic, post_num):
         return (topic_title, post_body, author_email)
     except KeyError as e:
         return e
+    except TypeError as f:
+        return f"{f}"
 
 
 def actions():
