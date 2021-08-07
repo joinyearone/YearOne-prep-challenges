@@ -1,9 +1,8 @@
 import random
 from pprint import pprint
 
-import yaml
-
 import py_actions
+import yaml
 
 
 def random_topic_chooser():
