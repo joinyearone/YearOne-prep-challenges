@@ -20,18 +20,18 @@ The following is a set of guidelines for contributing to this project, which is 
 
 ## ✨ Contributing Content
 
-This project shares interview prep code challenges and articles for the YearOne community, prompting daily prep topics and grouping resources by difficulty level. 
+This project shares interview prep code challenges and resources for the YearOne community, prompting daily prep topics and grouping resources by difficulty level. 
 
-To contribute, you'll find all of the resources in the `topics.yaml` file of the repository. Topics entered into this file checked on a cron schedule using Github Actions. 
+**To contribute**, you'll find all of the contributed resources in the `topics.yaml` file of the repository. Topics entered into this file are checked on a cron schedule using Github Actions. 
 
-- Daily topics are randomly chosen, for all topics that have a difficulty level of `Beginner` or `Medium`, and posted straight to the YearOne community platform. 
-- Other topics are scanned every few hours and new entries are automatically posted to the corresponding difficulty page in the YearOne community. 
+- Daily topics are randomly chosen, for all topics that have a difficulty level of `Beginner` or `Medium`, and posted straight to the YearOne community platform in the #Daily Challenge page. 
+- A scheduled cron will run every few hours to scan for new entries and post them to the corresponding difficulty page in the YearOne community. 
 
 ### What makes a good topic?
 
 A good topic can be a coding question or challenge from a popular site, a technical article or tutorial that teaches a skill, or a link to a video that you found handy for interview prep. 
 
-Please check that all links provided are accessible for free. To do this, take the link and run it in an incognito window, if it's viewable, then it's accessible to all. 
+Please check that all links provided are accessible for **free**. To do this, take the link and run it in an incognito window, if it's viewable, then it's accessible to all. 
 
 ### Formatting a Topic
 
@@ -41,7 +41,7 @@ Follow the formatting of the existing yaml file and the details below. Find out 
 '1': #Represents the topic number, these should be sequential with the newest topic on the top of the file
   title: 'Common Prefix Problem' #The title of the topic or post
   difficulty: 'Beginner' #The difficulty should be Beginner, Medium or Advanced only, to make for easier parsing
-  source: 'Leetcode' #The name of where the question came from
+  source: 'Leetcode' #The name of where the question/article or resource came from
   # Make sure to leave the pipe after the body key, to have Yaml recognize the next indented block as multi-line.
   # The Body text is written with HTML tags, for proper rendering to the community. Make sure to use break <br> tags to 
   # indicate new lines, and <a> tags to insert links!
@@ -53,7 +53,7 @@ Follow the formatting of the existing yaml file and the details below. Find out 
     <a href="https://leetcode.com/problems/longest-common-prefix/" target="_blank">🎄Tree Algo Link!</a>
   author_name: 'Kristal' # (Optional) We shout out the contributor when the topic is posted, include your name if you'd like
   author_email: 'kristal@joinyearone.io' # (Optional) When we post in circle, we can change the author of the post by supplying
-  # a members email address, feel free to provide this or leave it out. 
+  # a members email address
 
 ```
 
@@ -70,7 +70,7 @@ As an open-source project, we'll have open [issues](https://github.com/YearOne-P
 - Step 3:
   - When you're ready to take on the ticket, comment that you're working on it. The ticket will then get assigned to you by a maintainer. 
 - Step 4:
-  - When your code or solution is ready for review, open your pull request for review. 
+  - When your code or solution is ready, open your pull request for review. 
   - (optional) Link the Issue to your Pull Request in the right side-bar of the issue itself. 
 - Step 5:
   - Merge that PR when it's approved and we'll close out the issue! 
