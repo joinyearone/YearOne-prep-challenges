@@ -1,21 +1,26 @@
 ---
+# See the contributing guidelines for details on the formatting here! 
 
 '2':
   title: 'Common Prefix Problem'
   difficulty: 'Beginner'
+  source: 'Leetcode'
   body: |
     <strong>This link is a great beginner-level algorithm focused on strings!</strong><br>
     Write a function to find the longest common prefix string amongst an array of strings. <br>
     If there is no common prefix, return an empty string "".<br>
     <br>
-    <a href="https://leetcode.com/problems/longest-common-prefix/" target="_blank">🎄Tree Algo Link!</a>
+    <a href="https://leetcode.com/problems/longest-common-prefix/" target="_blank">🔗 Code Challenge Link!</a>
   author_name: 'Kristal'
 
 
 '1':
-  title: 'Test title for my yaml post'
-  difficulty: 'Advanced'
+  title: 'Quarter  of the Year'
+  difficulty: 'Beginner'
+  source: 'Codewars'
   body: |
-    Blank lines denote
-    paragraph breaks
+    Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number. <br>
+    For example: month 2 (February), is part of the first quarter; month 6 (June), is part of the second quarter; and month 11 (November), is part of the fourth quarter.<br>
+    <br>
+    <a href="https://www.codewars.com/kata/5ce9c1000bab0b001134f5af/train/python" target="_blank">🔗 Code Challenge Link!</a>
 

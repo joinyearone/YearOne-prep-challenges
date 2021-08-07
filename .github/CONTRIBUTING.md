@@ -38,6 +38,7 @@ Follow the formatting of the existing yaml file and the details below. Find out 
 '1': #Represents the topic number, these should be sequential with the newest topic on the top of the file
   title: 'Common Prefix Problem' #The title of the topic or post
   difficulty: 'Beginner' #The difficulty should be Beginner, Medium or Advanced only, to make for easier parsing
+  source: 'Leetcode' #The name of where the question came from
   # Make sure to leave the pipe after the body key, to have Yaml recognize the next indented block as multi-line.
   # The Body text is written with HTML tags, for proper rendering to the community. Make sure to use break <br> tags to 
   # indicate new lines, and <a> tags to insert links!
