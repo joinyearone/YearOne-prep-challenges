@@ -39,7 +39,7 @@ def post_to_circle(space_id, title_text, body_message, author_email=None):
         response = requests.request("POST", post_url, headers=headers, data=payload)
         return response.status_code
     except Exception as e:
-        raise ValueError(f"Error on circle post: {e}")
+        return f"Error on circle post: {e}"
 
 
 def get_post_count(space_id):
