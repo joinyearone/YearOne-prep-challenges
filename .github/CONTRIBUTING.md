@@ -16,7 +16,9 @@ The following is a set of guidelines for contributing to this project, which is 
 - [Suggesting Enhancements](#suggesting-enhancements)
 - [Pull Requests](#pull-requests)
 
-## Contributing Content
+---
+
+## ✨ Contributing Content
 
 This project shares interview prep code challenges and articles for the YearOne community, prompting daily prep topics and grouping resources by difficulty level. 
 
@@ -55,6 +57,8 @@ Follow the formatting of the existing yaml file and the details below. Find out 
 
 ```
 
+---
+
 ## Tackling an Issue
 
 As an open-source project, we'll have open [issues](https://github.com/YearOne-Prep/YearOne-prep-challenges/issues) that list out our enhancement and bug-fixes that need support. If you see one that you'd be willing to help with, here are the steps you should take:
@@ -70,6 +74,8 @@ As an open-source project, we'll have open [issues](https://github.com/YearOne-P
   - (optional) Link the Issue to your Pull Request in the right side-bar of the issue itself. 
 - Step 5:
   - Merge that PR when it's approved and we'll close out the issue! 
+
+---
 
 ## Reporting Bugs
 
@@ -95,6 +101,8 @@ Explain the problem and include additional details to help maintainers reproduce
 * **Can you reliably reproduce the issue?** If not, provide details about how often the problem happens and under which conditions it normally happens.
 Include details about your configuration and environment:
 
+---
+
 ## Suggesting Enhancements
 
 This section guides you through submitting a suggestion, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion and find related suggestions.
@@ -111,12 +119,13 @@ Enhancement suggestions are tracked as GitHub issues. Create an issue and provid
 * **Describe the current behavior** and **explain which behavior you expected to see instead** and why.
 * **Explain why this enhancement would be useful** to most users.
 
+---
+
 ## Pull Requests
 
 Please follow these steps to have your contribution considered by the maintainers:
 
 1. Follow all instructions in the template.
-2. Adhear the Code of Conduct.
-3. After you submit your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing.
+2. After you submit your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing.
 
 While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewer(s) may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
