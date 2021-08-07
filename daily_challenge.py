@@ -1,5 +1,6 @@
-from pprint import pprint
 import random
+from pprint import pprint
+
 import yaml
 
 import py_actions
