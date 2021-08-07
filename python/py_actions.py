@@ -36,10 +36,7 @@ def post_to_circle(space_id, title_text, body_message, author_email=None):
     payload = {}
     headers = {"Authorization": API_TOKEN}
     try:
-        response = requests.request("POST",
-                                    post_url,
-                                    headers=headers,
-                                    data=payload)
+        response = requests.request("POST", post_url, headers=headers, data=payload)
         return response.status_code
     except Exception as e:
         return f"Error on circle post: {e}"
@@ -52,10 +49,7 @@ def get_post_count(space_id):
     payload = {}
     headers = {"Authorization": API_TOKEN}
     try:
-        circle_api = requests.request("GET",
-                                      url,
-                                      headers=headers,
-                                      data=payload).json()
+        circle_api = requests.request("GET", url, headers=headers, data=payload).json()
         post_count = len(circle_api)
 
         return post_count
