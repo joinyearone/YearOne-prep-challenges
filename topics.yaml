@@ -1,6 +1,18 @@
 ---
 # See the contributing guidelines for details on the formatting here! 
 
+'3':
+  title: "Number of Islands"
+  difficulty: 'Medium'
+  source: 'LeetCode'
+  body: |
+    <strong>This is a good problem for learning graph traversal!</strong><br>
+    Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands. <br>
+    An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water. <br>
+    <br>
+    <a href="https://leetcode.com/problems/number-of-islands/" target="_blank">🔗 Code Challenge Link!</a>
+  author_name: 'Trevor'
+  
 '2':
   title: 'Common Prefix Problem'
   difficulty: 'Beginner'
