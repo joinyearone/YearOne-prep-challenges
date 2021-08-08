@@ -35,7 +35,7 @@ const postQuestion = async (question) => {
 	if (author_email) {
 		url_pieces.append(post_author);
 	}
-	const url = url_pieces.join("");
+	const url = encodeURI(url_pieces.join(""));
 
 	await fetch(url, requestOptions)
 		.then((response) => response.json())
