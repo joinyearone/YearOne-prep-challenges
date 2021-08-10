@@ -8,41 +8,42 @@ const MEDIUM_SPACE_ID = process.env.MEDIUM_SPACE_ID;
 const ADVANCED_SPACE_ID = process.env.ADVANCED_SPACE_ID;
 
 const postQuestion = async (question) => {
-	const { title, difficulty, body, author_email } = question;
 
-	console.log(difficulty);
-	const requestOptions = {
-		method: "POST",
-		headers: { Authorization: API_TOKEN },
-	};
+const { title, difficulty, body, author_email } = question;
 
-	const questionDifficulties = {
-		Beginner: BEGGINER_SPACE_ID,
-		Medium: MEDIUM_SPACE_ID,
-		Advanced: ADVANCED_SPACE_ID,
-	};
+console.log(difficulty);
+const requestOptions = {
+  method: "POST",
+  headers: { Authorization: API_TOKEN },
+};
 
-	const SPACE_ID = questionDifficulties[difficulty];
+const questionDifficulties = {
+  Beginner: BEGGINER_SPACE_ID,
+  Medium: MEDIUM_SPACE_ID,
+  Advanced: ADVANCED_SPACE_ID,
+};
 
-	//url creation
-	const post_url = `${CIRCLE_COMMUNITY_PATH}/api/v1/posts?community_id=${COMMUNITY_ID}&SPACE_ID=${SPACE_ID}&`;
-	const post_title = `name=${title}&`;
-	const post_body = `body=${body}&`;
-	const post_url_ending_params = `is_comments_enabled=true&is_liking_enabled=true&is_truncation_disabled=true`;
-	const post_author = `&user_email=${author_email}`;
+const SPACE_ID = questionDifficulties[difficulty];
 
-	const url_pieces = [post_url, post_title, post_body, post_url_ending_params];
-	if (author_email) {
-		url_pieces.append(post_author);
-	}
-	const url = encodeURI(url_pieces.join(""));
+// url creation
+const post_url = `${CIRCLE_COMMUNITY_PATH}/api/v1/posts?community_id=${COMMUNITY_ID}&SPACE_ID=${SPACE_ID}&`;
+const post_title = `name=${title}&`;
+const post_body = `body=${body}&`;
+const post_url_ending_params = `is_comments_enabled=true&is_liking_enabled=true&is_truncation_disabled=true`;
+const post_author = `&user_email=${author_email}`;
 
-	await fetch(url, requestOptions)
-		.then((response) => response.json())
-		.then((result) => {
-			console.log(result);
-		})
-		.catch((error) => console.log("error", error));
+const url_pieces = [post_url, post_title, post_body, post_url_ending_params];
+if (author_email) {
+  url_pieces.append(post_author);
+}
+const url = encodeURI(url_pieces.join(""));
+
+await fetch(url, requestOptions)
+  .then((response) => response.json())
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((error) => console.log("error", error));
 };
 
 module.exports = { postQuestion };
