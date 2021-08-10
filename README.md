@@ -49,6 +49,8 @@ any little bit of help counts! 😊
 
 #### Contributors
 
+- [Trevor Tomlin](https://github.com/trevortomlin)
+
 ## Continuous Deployment Pipeline
 
 We have github actions set up to automagically send new topics to the YearOne
