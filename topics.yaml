@@ -1,6 +1,24 @@
 ---
 # See the contributing guidelines for details on the formatting here!
 
+"4":
+  title: "Valid Parentheses"
+  difficulty: "Beginner"
+  source: "LeetCode"
+  body: |
+    <strong>
+      This is a great introduction to the Stack data structure!
+    </strong>
+    <br>
+      Given a string s containing just the characters '(', ')', ' {', '}', '[' and ']', determine if the input string is   valid. 
+    <br>
+      An input string is valid if:
+      Open brackets must be closed by the same type of brackets.
+      Open brackets must be closed in the correct order. <br>
+    <br>
+    <a href="https://leetcode.com/problems/valid-parentheses/" target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Jesus Quezada"
+
 "3":
   title: "Number of Islands"
   difficulty: "Medium"
