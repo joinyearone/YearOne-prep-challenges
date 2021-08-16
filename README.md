@@ -50,6 +50,7 @@ any little bit of help counts! 😊
 #### Contributors
 
 - [Trevor Tomlin](https://github.com/trevortomlin)
+- [Jesus Quezada](https://github.com/machinesandpixels)
 
 ## Continuous Deployment Pipeline
 
