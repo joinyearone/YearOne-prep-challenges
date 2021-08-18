@@ -1,5 +1,19 @@
 ---
 # See the contributing guidelines for details on the formatting here!
+"6":
+  title: "Palindrome Linked List"
+  difficulty: "Beginner"
+  source: "LeetCode"
+  body: |
+    <strong>
+      This is an excellent introduction to linked lists!
+    </strong>
+    <br>
+      Given the head of a singly linked list, return true if it is a palindrome.
+    <br>
+    <a href="https://leetcode.com/problems/palindrome-linked-list/" target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Jesse Smith"
+
 "5":
   title: "Tutorial for Interview Prep"
   difficulty: "Beginner"
@@ -15,7 +29,7 @@
     <br>
     <a href="https://passmyinterview.com/top-30-interview-questions-answers/" target="_blank">🔗 TOP 30 INTERVIEW QUESTIONS and Answers</a>
   author_name: "Anita Ihuman"
-  
+
 "4":
   title: "Valid Parentheses"
   difficulty: "Beginner"
