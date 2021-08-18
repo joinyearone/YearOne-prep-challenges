@@ -1,6 +1,21 @@
 ---
 # See the contributing guidelines for details on the formatting here!
-
+"5":
+  title: "Tutorial for Interview Prep"
+  difficulty: "Beginner"
+  source: "PassMyInterview"
+  body: |
+    <strong>
+      This is a brilliant training tutorial to pass any job interview in one attempt!
+    </strong>
+    <br>
+      If you have any any job interview coming up, make sure you study this brilliant training tutorial from start to finish!
+      It is guaranteed to help you PASS your interview!.
+      This resource has helped countless number of persons from all fields ace their interview.<br>
+    <br>
+    <a href="https://passmyinterview.com/top-30-interview-questions-answers/" target="_blank">🔗 TOP 30 INTERVIEW QUESTIONS and Answers</a>
+  author_name: "RICHARD MCMUNN"
+  
 "4":
   title: "Valid Parentheses"
   difficulty: "Beginner"
