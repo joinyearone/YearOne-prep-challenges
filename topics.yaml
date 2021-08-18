@@ -1,5 +1,5 @@
 ---
-# See the contributing guidelines for details on the formatting here!
+# See the contributing guidelines for details on the formatting here.
 "6":
   title: "Palindrome Linked List"
   difficulty: "Beginner"
@@ -11,7 +11,8 @@
     <br>
       Given the head of a singly linked list, return true if it is a palindrome.
     <br>
-    <a href="https://leetcode.com/problems/palindrome-linked-list/" target="_blank">🔗 Code Challenge Link!</a>
+    <a href="https://leetcode.com/problems/palindrome-linked-list/"
+    target="_blank">🔗 Code Challenge Link!</a>
   author_name: "Jesse Smith"
 
 "5":
@@ -20,14 +21,19 @@
   source: "PassMyInterview"
   body: |
     <strong>
-      This is a brilliant training tutorial to pass any job interview in one attempt!
+      This is a brilliant training tutorial to pass any job
+       interview in one attempt!
     </strong>
     <br>
-      If you have any any job interview coming up, make sure you study this brilliant training tutorial from start to finish!
-      It is guaranteed to help you PASS your interview!.
-      This resource has helped countless number of persons from all fields ace their interview.<br>
+      If you have any any job interview coming up, make sure
+       you study this brilliant
+       training tutorial from start to finish!
+      It is guaranteed to help you PASS your interview!
+      This resource has helped countless number of persons from all
+       fields ace their interview.<br>
     <br>
-    <a href="https://passmyinterview.com/top-30-interview-questions-answers/" target="_blank">🔗 TOP 30 INTERVIEW QUESTIONS and Answers</a>
+    <a href="https://passmyinterview.com/top-30-interview-questions-answers/"
+     target="_blank">🔗 TOP 30 INTERVIEW QUESTIONS and Answers</a>
   author_name: "Anita Ihuman"
 
 "4":
@@ -39,13 +45,15 @@
       This is a great introduction to the Stack data structure!
     </strong>
     <br>
-      Given a string s containing just the characters '(', ')', ' {', '}', '[' and ']', determine if the input string is   valid. 
+      Given a string s containing just the characters '(', ')', ' {', '}',
+       '[' and ']', determine if the input string is   valid.
     <br>
       An input string is valid if:
       Open brackets must be closed by the same type of brackets.
       Open brackets must be closed in the correct order. <br>
     <br>
-    <a href="https://leetcode.com/problems/valid-parentheses/" target="_blank">🔗 Code Challenge Link!</a>
+    <a href="https://leetcode.com/problems/valid-parentheses/"
+     target="_blank">🔗 Code Challenge Link!</a>
   author_name: "Jesus Quezada"
 
 "3":
@@ -54,10 +62,14 @@
   source: "LeetCode"
   body: |
     <strong>This is a good problem for learning graph traversal!</strong><br>
-    Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands. <br>
-    An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water. <br>
+    Given an m x n 2D binary grid grid which represents a map of '1's (land)
+     and '0's (water), return the number of islands. <br>
+    An island is surrounded by water and is formed by connecting adjacent
+     lands horizontally or vertically. You may assume all four edges of
+      the grid are all surrounded by water. <br>
     <br>
-    <a href="https://leetcode.com/problems/number-of-islands/" target="_blank">🔗 Code Challenge Link!</a>
+    <a href="https://leetcode.com/problems/number-of-islands/"
+     target="_blank">🔗 Code Challenge Link!</a>
   author_name: "Trevor"
 
 "2":
@@ -65,11 +77,14 @@
   difficulty: "Beginner"
   source: "Leetcode"
   body: |
-    <strong>This link is a great beginner-level algorithm focused on strings!</strong><br>
-    Write a function to find the longest common prefix string amongst an array of strings. <br>
+    <strong>This link is a great beginner-level algorithm focused
+     on strings!</strong><br>
+    Write a function to find the longest common prefix string amongst
+     an array of strings. <br>
     If there is no common prefix, return an empty string "".<br>
     <br>
-    <a href="https://leetcode.com/problems/longest-common-prefix/" target="_blank">🔗 Code Challenge Link!</a>
+    <a href="https://leetcode.com/problems/longest-common-prefix/"
+     target="_blank">🔗 Code Challenge Link!</a>
   author_name: "Kristal"
 
 "1":
@@ -77,7 +92,12 @@
   difficulty: "Beginner"
   source: "Codewars"
   body: |
-    Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number. <br>
-    For example: month 2 (February), is part of the first quarter; month 6 (June), is part of the second quarter; and month 11 (November), is part of the fourth quarter.<br>
+    Given a month as an integer from 1 to 12, return to which quarter
+     of the year it belongs as an integer number. <br>
+    For example: month 2 (February), is part of the first quarter; month
+     6 (June), is part of the second quarter; and month 11 (November),
+      is part of the fourth quarter.<br>
     <br>
-    <a href="https://www.codewars.com/kata/5ce9c1000bab0b001134f5af/train/python" target="_blank">🔗 Code Challenge Link!</a>
+    <a
+     href="https://www.codewars.com/kata/5ce9c1000bab0b001134f5af/train/python"
+     target="_blank">🔗 Code Challenge Link!</a>
