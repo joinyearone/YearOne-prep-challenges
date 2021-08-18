@@ -53,6 +53,7 @@ any little bit of help counts! 😊
 - [Jesus Quezada](https://github.com/machinesandpixels)
 - [Anita Ihuman](https://github.com/Anita-ihuman)
 - [Jesse Smith](https://github.com/jessesmith-13)
+- [Hulya Karakaya](https://github.com/hulyak)
 
 ## Continuous Deployment Pipeline
 
