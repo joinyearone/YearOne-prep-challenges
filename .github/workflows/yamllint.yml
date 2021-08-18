@@ -1,7 +1,11 @@
 ---
 name: yamllint test
 
-on: pull-request
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   test:
