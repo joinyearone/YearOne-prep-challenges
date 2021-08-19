@@ -6,7 +6,7 @@
   source: "ProjectEuler"
   body: |
     <strong>
-      This is a great problem for developing mathematical understanding while 
+      This is a great problem for developing mathematical understanding while
        solving a programming question.
     </strong>
     <br>
