@@ -51,9 +51,12 @@ any little bit of help counts! 😊
 
 - [Trevor Tomlin](https://github.com/trevortomlin)
 - [Jesus Quezada](https://github.com/machinesandpixels)
+<<<<<<< HEAD
 - [Anita Ihuman](https://github.com/Anita-ihuman)
 - [Jesse Smith](https://github.com/jessesmith-13)
 - [Sourav Singh Rawat](https://github.com/frostzt)
+=======
+>>>>>>> jesusQuezada
 
 ## Continuous Deployment Pipeline
 
