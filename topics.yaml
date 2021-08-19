@@ -1,5 +1,23 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+
+"8":
+  title: "Single Number"
+  difficulty: "Beginner"
+  source: "Leetcode"
+  body: |
+    <strong>
+      A great easy problem to practice sorting!
+    </strong>
+    <br>
+      Given a non-empty array of integers nums,
+        every element appears twice except for one.
+      Find that single one.<br>
+    <br>
+    <a href="https://leetcode.com/problems/single-number/"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Kirill Grinash"
+
 "7":
   title: "1000-digit Fibonacci Number"
   difficulty: "Beginner"
