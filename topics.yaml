@@ -6,9 +6,13 @@
   difficulty: "Beginner"
   source: "Leetcode"
   body: |
-    <strong>A great easy problem to practice sorting!</strong><br>
-    Given a non-empty array of integers nums, every element appears twice except for one.<br>
-    Find that single one.<br>
+    <strong>
+      A great easy problem to practice sorting!
+    </strong>
+    <br>
+      Given a non-empty array of integers nums,
+        every element appears twice except for one.
+      Find that single one.<br>
     <br>
     <a href="https://leetcode.com/problems/single-number/"
     target="_blank">🔗 Code Challenge Link!</a>
