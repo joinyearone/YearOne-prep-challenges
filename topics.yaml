@@ -1,5 +1,21 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"7":
+  title: "1000-digit Fibonacci Number"
+  difficulty: "Beginner"
+  source: "ProjectEuler"
+  body: |
+    <strong>
+      This is a great problem for developing mathematical understanding while
+       solving a programming question.
+    </strong>
+    <br>
+      Find the index of first 1000 digit fibonacci number.
+    <br>
+    <a href="https://projecteuler.net/problem=25"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Sourav Singh Rawat"
+
 "6":
   title: "Palindrome Linked List"
   difficulty: "Beginner"
