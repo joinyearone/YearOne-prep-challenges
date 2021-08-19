@@ -1,6 +1,24 @@
 ---
 # See the contributing guidelines for details on the formatting here.
-
+"9":
+  title: "Flexbox Learning Tool"
+  difficulty: "Beginner"
+  source: "Flexbox Defense"
+  body: |
+    <strong>
+      This is a nice interactive game for
+       learning how to use Flexbox in CSS.
+    </strong>
+    <br>
+      Use Flexbox properties to move towers into the
+       right defensive positions.
+      This game can help one better understand how
+       to effectively use and optimize
+       CSS Flexbox styling.
+    <br>
+    <a href="https://http://www.flexboxdefense.com/"
+    target="_blank">🔗 CSS Flexbox Tower Defense Game!</a>
+  author_name: "Johnathan Raiss"
 "8":
   title: "Single Number"
   difficulty: "Beginner"
