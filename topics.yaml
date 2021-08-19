@@ -6,14 +6,14 @@
   source: "Flexbox Defense"
   body: |
     <strong>
-      This is a nice interactive game for 
-      learning how to use Flexbox in CSS.
+      This is a nice interactive game for
+       learning how to use Flexbox in CSS.
     </strong>
     <br>
-      Use Flexbox properties to move towers into the 
+      Use Flexbox properties to move towers into the
        right defensive positions.
-      This game can help one better understand how 
-      to effectively use and optimize 
+      This game can help one better understand how
+       to effectively use and optimize 
       CSS Flexbox styling.
     <br>
     <a href="https://http://www.flexboxdefense.com/"
