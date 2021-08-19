@@ -48,7 +48,7 @@ any little bit of help counts! 😊
 - [Rafael Castellanos-Welsh](https://github.com/rafawelsh)
 
 #### Contributors
-
+- [Johnathan Raiss](https://github.com/johnny112f)
 - [Trevor Tomlin](https://github.com/trevortomlin)
 - [Jesus Quezada](https://github.com/machinesandpixels)
 - [Anita Ihuman](https://github.com/Anita-ihuman)
