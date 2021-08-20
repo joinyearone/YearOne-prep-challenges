@@ -1,5 +1,23 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"10":
+  title: "Sales by Match"
+  difficulty: "Easy"
+  source: "Hacker Rank"
+  body: |
+    <strong>
+      A fun and easy frequency counter problem
+    </strong>
+    <br>
+      There is a large pile of socks that must be paired
+      by color. Given an array of integers representing
+      the color of each sock, determine how many pairs of
+      socks with matching colors there are.
+    </br>
+    <a href="https://www.hackerrank.com/challenges/sock-merchant/problem"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Mario Carbonell"
+
 "9":
   title: "Flexbox Learning Tool"
   difficulty: "Beginner"
