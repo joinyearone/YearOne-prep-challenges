@@ -55,6 +55,7 @@ any little bit of help counts! 😊
 - [Jesse Smith](https://github.com/jessesmith-13)
 - [Sourav Singh Rawat](https://github.com/frostzt)
 - [Kirill Grinash](https://github.com/kirillgrinash)
+- [Mario Carbonell](https://github.com/mgcarbonell)
 
 ## Continuous Deployment Pipeline
 
