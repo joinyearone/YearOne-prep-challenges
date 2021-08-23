@@ -1,5 +1,20 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"11":
+  title: "Sort Array By Parity"
+  difficulty: "Beginner"
+  source: "LeetCode"
+  body: |
+    <strong>
+      Useful Array Problem: practice different problem solving approaches and array manipulation.
+    </strong>
+    <br>
+     Given an integer array, move all the even integers at the beginning of the array followed by all the odd integers.
+    <br>
+    <a href="https://leetcode.com/problems/sort-array-by-parity/"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Kevin Minutti"
+  
 "10":
   title: "Sales by Match"
   difficulty: "Easy"
