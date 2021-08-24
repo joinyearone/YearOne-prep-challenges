@@ -6,7 +6,9 @@
   source: "Edabit.com"
   body: |
     <strong>
-      This is a beginner problem that works with conversion of different time measurements. This site is great for having very basic to more advanced problems of every topic.
+      This is a beginner problem that works with conversion of different
+       time measurements. This site is great for having very
+        basic to more advanced problems of every topic.
     </strong>
     <br>
      Create a function that takes the age in years and returns the age in days.
@@ -14,7 +16,7 @@
     <a href="https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw"
     target="_blank">🔗 Code Challenge Link!</a>
   author_name: "Manon Sainton"
-  
+
 "13":
   title: "Sort Array By Parity"
   difficulty: "Beginner"
