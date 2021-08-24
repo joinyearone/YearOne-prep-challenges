@@ -1,5 +1,20 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"13":
+  title: "Convert Age to Days"
+  difficulty: "Beginner"
+  source: "Edabit.com"
+  body: |
+    <strong>
+      This is a beginner problem that works with conversion of different time measurements. This site is great for having very basic to more advanced problems of every topic.
+    </strong>
+    <br>
+     Create a function that takes the age in years and returns the age in days.
+    </br>
+    <a href="https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Manon Sainton"
+
 "10":
   title: "Sales by Match"
   difficulty: "Easy"
