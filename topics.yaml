@@ -6,13 +6,13 @@
   source: "LeetCode"
   body: |
     <strong>
-      Practice array manipulation with 
-      different problem solving approaches.
+      Practice array manipulation with
+       different problem solving approaches.
     </strong>
     <br>
-     Given an integer array, move all the even integers 
-     at the beginning of the array followed by 
-     all the odd integers.
+     Given an integer array, move all the even integers
+      at the beginning of the array followed by
+      all the odd integers.
     <br>
     <a href="​​https://leetcode.com/problems/sort-array-by-parity/"
     target="_blank">🔗 Code Challenge Link!</a>
