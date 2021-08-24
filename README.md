@@ -57,6 +57,7 @@ any little bit of help counts! 😊
 - [Kirill Grinash](https://github.com/kirillgrinash)
 - [Mario Carbonell](https://github.com/mgcarbonell)
 - [Hulya Karakaya](https://github.com/hulyak)
+- [Manon Sainton](https://github.com/Ginger-Mano)
 
 ## Continuous Deployment Pipeline
 
