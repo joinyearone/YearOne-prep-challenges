@@ -1,5 +1,22 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+
+"11":
+  title: "How to Prepare for Technical Interviews"
+  difficulty: "Easy"
+  source: "YouTube"
+  body: |
+    <strong>
+      A very meaningful and pragmatic way of approaching leetcode problems
+    </strong>
+    <br>
+      Follow this strategy to effectively prepare for your technical
+       interviews! 
+    </br>
+    <a href="https://www.youtube.com/watch?v=7UlslIXHNsw"
+    target="_blank">🔗 How to Prepare for Technical Interviews Link!</a>
+  author_name: "Amy Cai"
+
 "10":
   title: "Sales by Match"
   difficulty: "Easy"
