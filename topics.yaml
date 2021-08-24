@@ -1,5 +1,41 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"12":
+  title: "Binary Search"
+  difficulty: "Beginner"
+  source: "Binary Search"
+  body: |
+    <strong>
+     Learn Algorithms Together
+    </strong>
+    <br>
+      Join or create a room, invite your friends, and get ready to
+       solve problems together.
+     You'll all get the same coding question to solve.
+     Only you can see your editor.
+     Chat and solve questions together. Once you're done, you can
+      browse other people's solutions.
+    </br>
+    <a href="https://binarysearch.com/"
+    target="_blank">🔗 Binary Search Website!</a>
+  author_name: "Hulya Karakaya"
+
+"11":
+  title: "How to Prepare for Technical Interviews"
+  difficulty: "Easy"
+  source: "YouTube"
+  body: |
+    <strong>
+      A very meaningful and pragmatic way of approaching leetcode problems
+    </strong>
+    <br>
+      Follow this strategy to effectively prepare for your technical
+       interviews!
+    </br>
+    <a href="https://www.youtube.com/watch?v=7UlslIXHNsw"
+    target="_blank">🔗 How to Prepare for Technical Interviews Link!</a>
+  author_name: "Amy Cai"
+
 "10":
   title: "Sales by Match"
   difficulty: "Easy"
