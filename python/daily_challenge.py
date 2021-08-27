@@ -11,7 +11,7 @@ day_of_week = datetime.date.today().isoweekday()
 
 def createContest():
     easy_med = [0,1]
-    med_hard = [2,3]
+    med_hard = [1,2]
 
     if day_of_week > 3:
         difficulties = med_hard
