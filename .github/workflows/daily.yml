@@ -33,3 +33,4 @@ jobs:
           COMMUNITY_ID: ${{ secrets.COMMUNITY_ID }}
           CIRCLE_COMMUNITY_PATH: ${{ secrets.CIRCLE_COMMUNITY_PATH }}
           DAILY_SPACE_ID: ${{ secrets.DAILY_SPACE_ID }}
+          BINARYSEARCH_TOKEN: ${{ secrets.BINARYSEARCH_TOKEN }}
