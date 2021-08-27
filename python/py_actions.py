@@ -41,9 +41,9 @@ def post_to_circle(space_id, title_text, body_message, author_email=None):
 
     url = f"{CIRCLE_COMMUNITY_PATH}/api/v1/posts?community_id={COMMUNITY_ID}&space_id={space_id}&"
     title = f"name={title_text}&"
-    body = f"body={body_message}&"
+    body = f"internal_custom_html={body_message}&"
     url_ending_params = (
-        "is_comments_enabled=true&is_liking_enabled=true&is_truncation_disabled=true"
+        "is_comments_enabled=true&is_liking_enabled=true&is_truncation_disabled=false"
     )
     author = f"&user_email={author_email}"
 
