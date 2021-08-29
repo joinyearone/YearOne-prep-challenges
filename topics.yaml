@@ -6,8 +6,9 @@
   source: "ProjectEuler.net"
   body: |
     <strong>
-      This also is a beginner problem. It will allow you to think through the steps of a straightforward
-      mathematical problem, and solve it in it's component steps.
+      This also is a beginner problem. It will allow you to think 
+      through the steps of a straightforward mathematical problem, 
+      and solve it in it's component steps.
     </strong>
     <br>
      Sum all the multiples of 3 or 5 below 1000.
