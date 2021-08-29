@@ -1,5 +1,21 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"15":
+  title: "Multiples of 3 and 5"
+  difficulty: "Beginner"
+  source: "ProjectEuler.net"
+  body: |
+    <strong>
+      This also is a beginner problem. It will allow you to think through the steps of a straightforward
+      mathematical problem, and solve it in it's component steps.
+    </strong>
+    <br>
+     Sum all the multiples of 3 or 5 below 1000.
+    </br>
+    <a href="https://projecteuler.net/problem=1"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Eamonn Cottrell"
+
 "14":
   title: "Convert Age to Days"
   difficulty: "Beginner"
