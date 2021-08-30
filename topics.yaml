@@ -1,8 +1,8 @@
 ---
 # See the contributing guidelines for details on the formatting here.
-"17": 
+"18": 
   title: "Maximum Subarray"
-  difficulty: "Easy"
+  difficulty: "Beginner"
   source: "LeetCode"
   body: |
     <strong>
@@ -18,6 +18,24 @@
     <a href="https://leetcode.com/problems/maximum-subarray/"
     target="_blank"> 🔗 Leetcode - Max Subarray</a>
   author_name: "Dolly Desir"
+
+"17":
+  title: "JavaScript 3 FizzBuzz Solutions, Including the Shortest"
+  difficulty: "Beginner"
+  source: "Dev Genius"
+  body: |
+    <strong>
+      Three ways to answer FizzBuzz using Javascript.
+    </strong>
+    <br>
+     FizzBuzz is quite the popular coding question.
+    </br>
+    <br>
+     If you haven't tried to tackle the problem then give this article a read!
+    </br>
+    <a href="https://tinyurl.com/hd3smmuk"
+    target="_blank">🔗 FizzBuzz Solutions Link!</a>
+  author_name: "Jadiva Montealegre"
 
 "16":
   title: "Bubble Sort"
