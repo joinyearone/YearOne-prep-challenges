@@ -59,6 +59,7 @@ any little bit of help counts! 😊
 - [Hulya Karakaya](https://github.com/hulyak)
 - [Manon Sainton](https://github.com/Ginger-Mano)
 - [Kevin Minutti](https://github.com/K-minutti)
+- [Dolly Desir](https://github.com/dolly-d)
 
 ## Continuous Deployment Pipeline
 

@@ -1,7 +1,7 @@
 ---
 # See the contributing guidelines for details on the formatting here.
 "15": 
-  title: "Maxmimum Subarray"
+  title: "Maximum Subarray"
   difficulty: "Easy"
   source: "LeetCode"
   body: |
