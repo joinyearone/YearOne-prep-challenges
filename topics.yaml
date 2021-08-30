@@ -1,5 +1,20 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"16":
+  title: "Bubble Sort"
+  difficulty: "Beginner"
+  source: "Algorithms: Explained and Animated"
+  body: |
+    <strong>
+      Video animations to illustrate how data moves during bubble sort.
+    </strong>
+    <br>
+     Visualize bubble sort & other algorithms with free Android/iPhone apps.
+    </br>
+    <a href="https://www.youtube.com/watch?v=54fOXwu_5Es"
+    target="_blank">🔗 Bubble Sort Visualization Link!</a>
+  author_name: "Tiffany"
+
 "15":
   title: "Multiples of 3 and 5"
   difficulty: "Beginner"
