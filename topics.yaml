@@ -1,17 +1,19 @@
 ---
 # See the contributing guidelines for details on the formatting here.
 "19":
-  title: ""
-  difficulty: ""
-  source: ""
+  title: "Valid Anagram"
+  difficulty: "Beginner"
+  source: "LeetCode"
   body: |
     <strong>
+      This is a beginner problem involving strings, comparisons and hash tables. 
     </strong>
     <br>
+      Given two strings s and t, return true if t is an anagram of s, and false otherwise.
     </br>
-    <a href=""
-    target="_blank"> 🔗 </a>
-  author_name: ""
+    <a href="https://leetcode.com/problems/valid-anagram/"
+    target="_blank"> 🔗 LeetCode - Valid Anagram</a>
+  author_name: "Maeling Murphy"
 
 "18":
   title: "Maximum Subarray"
