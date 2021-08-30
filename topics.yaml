@@ -14,8 +14,9 @@
     <br>
      If you haven't tried to tackle the problem then give this article a read!
     </br>
-    <a href="https://blog.devgenius.io/javascript-three-fizzbuzz-solutions-including-the-shortest-possible-e2afb95096df" # yamllint disable-line rule:line-length
+    <a href="https://blog.devgenius.io/javascript-three-fizzbuzz-solutions-including-the-shortest-possible-e2afb95096df"
     target="_blank">🔗 FizzBuzz Solutions Link!</a>
+  # yamllint disable-line rule:line-length
   author_name: "Jadiva Montealegre"
 
 "16":
