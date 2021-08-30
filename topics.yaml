@@ -1,5 +1,23 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"17":
+  title: "JavaScript — Three FizzBuzz Solutions, Including the Shortest Possible"
+  difficulty: "Beginner"
+  source: "Dev Genius"
+  body: |
+    <strong>
+      Three ways to answer FizzBuzz using Javascript.
+    </strong>
+    <br>
+     FizzBuzz is quite the popular coding question.
+    </br>
+    <br>
+     If you haven't tried to tackle the problem or struggled to get the correct answer then give this article a read!
+    </br>
+    <a href="https://blog.devgenius.io/javascript-three-fizzbuzz-solutions-including-the-shortest-possible-e2afb95096df"
+    target="_blank">🔗 FizzBuzz Solutions Link!</a>
+  author_name: "Jadiva Montealegre"
+
 "16":
   title: "Bubble Sort"
   difficulty: "Beginner"
