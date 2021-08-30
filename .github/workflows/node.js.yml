@@ -22,7 +22,7 @@ jobs:
       with:
         node-version: '12.x'
     - name: Install dependencies
-      run: npm install ./javascript
+      run: npm install js-yaml node-fetch
     - name: Run Daily File
       run: node javascript/add_challenge_to_spaces.js
       env:
