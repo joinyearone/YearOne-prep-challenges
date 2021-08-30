@@ -1,5 +1,18 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"19":
+  title: ""
+  difficulty: ""
+  source: ""
+  body: |
+    <strong>
+    </strong>
+    <br>
+    </br>
+    <a href=""
+    target="_blank"> 🔗 </a>
+  author_name: ""
+
 "18":
   title: "Maximum Subarray"
   difficulty: "Beginner"
