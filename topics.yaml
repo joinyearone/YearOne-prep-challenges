@@ -1,5 +1,26 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"18":
+  title: "Maximum Subarray"
+  difficulty: "Beginner"
+  source: "LeetCode"
+  body: |
+    <strong>
+    This is an easy level problem that can be used
+     to solve a lot of algorithms.
+      It uses a pattern known as the 'Sliding Window' technique.
+      Many algorithms in which you would implement a sliding window,
+      uses words like 'sum','continous' or 'contigous'.
+    </strong>
+    <br>
+      Given an integer array called nums, find the contiguous
+      subarray (containing at least one number) which has the largest
+      sum and return its sum.
+    </br>
+    <a href="https://leetcode.com/problems/maximum-subarray/"
+    target="_blank"> 🔗 Leetcode - Max Subarray</a>
+  author_name: "Dolly Desir"
+
 "17":
   title: "JavaScript 3 FizzBuzz Solutions, Including the Shortest"
   difficulty: "Beginner"
