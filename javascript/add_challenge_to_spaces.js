@@ -1,6 +1,6 @@
 //Import dependcies
-import { fs } from "fs";
-import { YAML } from "js-yaml";
+const fs = require("fs");
+const YAML = require("js-yaml");
 
 //import actions
 import { postQuestion } from "./js_actions.js";
