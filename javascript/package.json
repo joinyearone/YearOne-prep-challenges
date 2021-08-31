@@ -2,5 +2,6 @@
   "dependencies": {
     "js-yaml": "^4.1.0",
     "node-fetch": "^2.6.1"
-  }
+  },
+  "type": "module"
 }
