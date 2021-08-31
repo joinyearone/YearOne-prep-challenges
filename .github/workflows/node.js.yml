@@ -6,28 +6,24 @@ name: Node.js CI
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [16.x]
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '12.x'
-    - name: Install dependencies
-      run: npm install js-yaml node-fetch
-    - name: Run Daily File
-      run: node javascript/add_challenge_to_spaces.js
-      env:
-        API_TOKEN: ${{ secrets.API_TOKEN }}
-        COMMUNITY_ID: ${{ secrets.COMMUNITY_ID }}
-        CIRCLE_COMMUNITY_PATH: ${{ secrets.CIRCLE_COMMUNITY_PATH }}
-        DAILY_SPACE_ID: ${{ secrets.DAILY_SPACE_ID }}
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "12.x"
+      - name: Install dependencies
+        run: npm install js-yaml node-fetch
+      - name: Run Daily File
+        run: node javascript/add_challenge_to_spaces.js
+        env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+          COMMUNITY_ID: ${{ secrets.COMMUNITY_ID }}
+          CIRCLE_COMMUNITY_PATH: ${{ secrets.CIRCLE_COMMUNITY_PATH }}
+          DAILY_SPACE_ID: ${{ secrets.DAILY_SPACE_ID }}
