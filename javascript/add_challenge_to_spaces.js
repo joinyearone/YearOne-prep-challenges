@@ -3,7 +3,7 @@ import fs from "fs";
 import YAML from "js-yaml";
 
 //import actions
-const { postQuestion } = require("./js_actions.js");
+import { postQuestion } from "./js_actions.js";
 
 try {
 	const raw = fs.readFileSync("../topics.yaml");
