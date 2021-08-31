@@ -1,5 +1,21 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"20":
+  title: "Sorting an array using insertion sort"
+  difficulty: "Beginner"
+  source: "pepcoding.com"
+  body: |
+    <strong>
+      Problem that highlights the insertion sort algorithm.
+    </strong>
+    <br>
+     Given an array of integers, sort it in an ascending order
+     using insertion sort.
+    </br>
+    <a href="https://bit.ly/pepcoding-insertion-sort"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Davis Omokaro"
+
 "19":
   title: "Valid Anagram"
   difficulty: "Beginner"
