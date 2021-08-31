@@ -1,4 +1,4 @@
-const fetch = require("node-fetch");
+import fetch from "node-fetch";
 
 const API_TOKEN = process.env.API_TOKEN;
 const COMMUNITY_ID = process.env.COMMUNITY_ID;
