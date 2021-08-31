@@ -63,6 +63,7 @@ any little bit of help counts! 😊
 - [Eamonn Cottrell](https://github.com/sieis)
 - [Tiffany Udoh](https://github.com/cassiel257)
 - [Jadiva Montealegre](https://github.com/jadivam)
+- [Maeling Murphy](https://github.com/maelingmurphy)
 
 ## Continuous Deployment Pipeline
 
