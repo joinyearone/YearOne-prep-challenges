@@ -5,7 +5,6 @@ const COMMUNITY_ID = process.env.COMMUNITY_ID;
 const CIRCLE_COMMUNITY_PATH = process.env.CIRCLE_COMMUNITY_PATH;
 const BEGGINER_SPACE_ID = process.env.BEGGINER_SPACE_ID;
 const MEDIUM_SPACE_ID = process.env.MEDIUM_SPACE_ID;
-const ADVANCED_SPACE_ID = process.env.ADVANCED_SPACE_ID;
 
 const postQuestion = async (question, questionNumber) => {
 	const { title, difficulty, source, body, author_name } = question;
@@ -18,7 +17,6 @@ const postQuestion = async (question, questionNumber) => {
 	const questionDifficulties = {
 		Beginner: BEGGINER_SPACE_ID,
 		Medium: MEDIUM_SPACE_ID,
-		Advanced: ADVANCED_SPACE_ID,
 	};
 
 	const SPACE_ID = questionDifficulties[difficulty];
