@@ -6,10 +6,12 @@
   source: "LeetCode"
   body: |
     <strong>
-      This is a beginner problem involving strings, comparisons and hash tables. 
+      This is a beginner problem involving strings,
+      comparisons and hash tables.
     </strong>
     <br>
-      Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+      Given two strings s and t, return true if
+      t is an anagram of s, and false otherwise.
     </br>
     <a href="https://leetcode.com/problems/valid-anagram/"
     target="_blank"> 🔗 LeetCode - Valid Anagram</a>
