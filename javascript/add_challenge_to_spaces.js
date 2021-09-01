@@ -6,7 +6,7 @@ import YAML from "js-yaml";
 import postQuestion from "./js_actions.js";
 
 try {
-	const raw = fs.readFileSync("../../topics.yaml");
+	const raw = fs.readFileSync("././topics.yaml");
 	const data = YAML.load(raw);
 	const lengthOfYAMLfile = Object.values(data).length;
 	const latestQuestion = data[lengthOfYAMLfile];
