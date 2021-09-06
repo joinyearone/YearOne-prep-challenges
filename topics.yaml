@@ -1,5 +1,25 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"21":
+  title: "Multiples of 3 or 5"
+  difficulty: "Beginner"
+  source: "ProjectEuler.net"
+  body: |
+    <strong>
+      Problem 1 of Project Euler
+    </strong>
+    <br>
+      If we list all the natural numbers below 10 that are
+      multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of
+      these multiples is 23.
+    </br>
+    <br>
+      Find the sum of all multiples of 3 or 5 below 1000.
+    </br>
+    <a href="https://projecteuler.net/problem=1"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Mario Carbonell"
+
 "20":
   title: "Sorting an array using insertion sort"
   difficulty: "Beginner"
