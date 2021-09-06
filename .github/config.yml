@@ -23,7 +23,7 @@ requestInfoLabelToAdd: needs-more-info
 # Comment to be posted to on first time issues
 
 newIssueWelcomeComment: >
-  Hey! Thanks for the issue! 
+  Hey! Thanks for the issue!
   Please make sure you have given us enough context and we will review it as soon as possible. ⏲️
   If you don't hear back from anyone within the next week, feel free to reach out to one of the maintainers.
   And if you haven't already, feel free to contribute a technical interview topic to our repo! Check out the [Contributing Guide!](https://github.com/YearOne-Prep/YearOne-prep-challenges/blob/main/.github/CONTRIBUTING.md)
@@ -41,6 +41,6 @@ newPRWelcomeComment: >
 
 firstPRMergeComment: >
   Congrats on merging your first pull request!🎉
-  
-  
+
+
   ![Applause](https://tenor.com/view/clapping-leonardo-dicaprio-leo-dicaprio-gif-10584134.gif)

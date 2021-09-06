@@ -56,6 +56,15 @@ any little bit of help counts! 😊
 - [Sourav Singh Rawat](https://github.com/frostzt)
 - [Kirill Grinash](https://github.com/kirillgrinash)
 - [Mario Carbonell](https://github.com/mgcarbonell)
+- [Hulya Karakaya](https://github.com/hulyak)
+- [Manon Sainton](https://github.com/Ginger-Mano)
+- [Kevin Minutti](https://github.com/K-minutti)
+- [Dolly Desir](https://github.com/dolly-d)
+- [Eamonn Cottrell](https://github.com/sieis)
+- [Tiffany Udoh](https://github.com/cassiel257)
+- [Jadiva Montealegre](https://github.com/jadivam)
+- [Maeling Murphy](https://github.com/maelingmurphy)
+- [Davis Omokaro](https://github.com/maelingmurphy)
 
 ## Continuous Deployment Pipeline
 
