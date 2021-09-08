@@ -1,5 +1,30 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"21":
+  title: "Even Fibonacci Numbers"
+  difficulty: "Beginner"
+  source: "ProjectEuler.net"
+  body: |
+    <strong>
+      Problem 2 of Project Euler
+    </strong>
+    <br>
+      Each new term in the Fibonacci sequence is generated
+      by adding the previous two terms. By starting with 1
+      and 2, the first 10 terms will be:
+    </br>
+    <br>
+      1, 2, 3, 4, 8, 13, 21, 34, 55, 89, ...
+    </br>
+    <br>
+      By considering the terms in the Fibonacci sequence
+      whose values do not exceed four million (4000000),
+      find the sum of the even-valued terms.
+    </br>
+    <a href="https://projecteuler.net/problem=2"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Mario Carbonell"
+
 "20":
   title: "Sorting an array using insertion sort"
   difficulty: "Beginner"
