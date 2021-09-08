@@ -1,9 +1,8 @@
 name: Run daily question
-on: workflow_dispatch
-# Uncomment to start Daily, M-F cron schedule
-#   workflow_dispatch:
-#   schedule:
-    # - cron: '0 0 * * 1-5'
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * 1-5'
 
 jobs:
   pull_data:
@@ -33,3 +32,4 @@ jobs:
           COMMUNITY_ID: ${{ secrets.COMMUNITY_ID }}
           CIRCLE_COMMUNITY_PATH: ${{ secrets.CIRCLE_COMMUNITY_PATH }}
           DAILY_SPACE_ID: ${{ secrets.DAILY_SPACE_ID }}
+          BINARYSEARCH_TOKEN: ${{ secrets.BINARYSEARCH_TOKEN }}

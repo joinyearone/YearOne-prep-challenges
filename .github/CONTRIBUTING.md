@@ -20,18 +20,18 @@ The following is a set of guidelines for contributing to this project, which is 
 
 ## ✨ Contributing Content
 
-This project shares interview prep code challenges and resources for the YearOne community, prompting daily prep topics and grouping resources by difficulty level. 
+This project shares interview prep code challenges and resources for the YearOne community, prompting daily prep topics and grouping resources by difficulty level.
 
-**To contribute**, you'll find all of the contributed resources in the `topics.yaml` file of the repository. Topics entered into this file are checked on a cron schedule using Github Actions. 
+**To contribute**, you'll find all of the contributed resources in the `topics.yaml` file of the repository. Topics entered into this file are checked on a cron schedule using Github Actions.
 
-- Daily topics are randomly chosen, for all topics that have a difficulty level of `Beginner` or `Medium`, and posted straight to the YearOne community platform in the #Daily Challenge page. 
-- A scheduled cron will run every few hours to scan for new entries and post them to the corresponding difficulty page in the YearOne community. 
+- Daily topics are randomly chosen, for all topics that have a difficulty level of `Beginner` or `Medium`, and posted straight to the YearOne community platform in the #Daily Challenge page.
+- A scheduled cron will run every few hours to scan for new entries and post them to the corresponding difficulty page in the YearOne community.
 
 ### What makes a good topic?
 
-A good topic can be a coding question or challenge from a popular site, a technical article or tutorial that teaches a skill, or a link to a video that you found handy for interview prep. 
+A good topic can be a coding question or challenge from a popular site, a technical article or tutorial that teaches a skill, or a link to a video that you found handy for interview prep.
 
-Please check that all links provided are accessible for **free**. To do this, take the link and run it in an incognito window, if it's viewable, then it's accessible to all. 
+Please check that all links provided are accessible for **free**. To do this, take the link and run it in an incognito window, if it's viewable, then it's accessible to all.
 
 ### Formatting a Topic
 
@@ -43,9 +43,9 @@ Follow the formatting of the existing yaml file and the details below. Find out 
   difficulty: 'Beginner' #The difficulty should be Beginner, Medium or Advanced only, to make for easier parsing
   source: 'Leetcode' #The name of where the question/article or resource came from
   # Make sure to leave the pipe after the body key, to have Yaml recognize the next indented block as multi-line.
-  # The Body text is written with HTML tags, for proper rendering to the community. Make sure to use break <br> tags to 
+  # The Body text is written with HTML tags, for proper rendering to the community. Make sure to use break <br> tags to
   # indicate new lines, and <a> tags to insert links!
-  body: | 
+  body: |
     <strong>Beginner-level algorithm focused on strings!</strong><br>
     Write a function to find the longest common prefix string amongst an array of strings. <br>
     If there is no common prefix, return an empty string "".<br>
@@ -64,16 +64,16 @@ Follow the formatting of the existing yaml file and the details below. Find out 
 As an open-source project, we'll have open [issues](https://github.com/YearOne-Prep/YearOne-prep-challenges/issues) that list out our enhancement and bug-fixes that need support. If you see one that you'd be willing to help with, here are the steps you should take:
 
 - Step 1:
-  - Find the ticket that you'd like to handle. 
+  - Find the ticket that you'd like to handle.
 - Step 2:
-  - Make sure the ticket has all the information you need to get started. Post comments if you need more clarity or direction. 
+  - Make sure the ticket has all the information you need to get started. Post comments if you need more clarity or direction.
 - Step 3:
-  - When you're ready to take on the ticket, comment that you're working on it. The ticket will then get assigned to you by a maintainer. 
+  - When you're ready to take on the ticket, comment that you're working on it. The ticket will then get assigned to you by a maintainer.
 - Step 4:
-  - When your code or solution is ready, open your pull request for review. 
-  - (optional) Link the Issue to your Pull Request in the right side-bar of the issue itself. 
+  - When your code or solution is ready, open your pull request for review.
+  - (optional) Link the Issue to your Pull Request in the right side-bar of the issue itself.
 - Step 5:
-  - Merge that PR when it's approved and we'll close out the issue! 
+  - Merge that PR when it's approved and we'll close out the issue!
 
 ---
 
