@@ -1,5 +1,330 @@
 ---
-# See the contributing guidelines for details on the formatting here!
+# See the contributing guidelines for details on the formatting here.
+"21":
+  title: "Even Fibonacci Numbers"
+  difficulty: "Beginner"
+  source: "ProjectEuler.net"
+  body: |
+    <strong>
+      Problem 2 of Project Euler
+    </strong>
+    <br>
+      Each new term in the Fibonacci sequence is generated
+      by adding the previous two terms. By starting with 1
+      and 2, the first 10 terms will be:
+    </br>
+    <br>
+      1, 2, 3, 4, 8, 13, 21, 34, 55, 89, ...
+    </br>
+    <br>
+      By considering the terms in the Fibonacci sequence
+      whose values do not exceed four million (4000000),
+      find the sum of the even-valued terms.
+    </br>
+    <a href="https://projecteuler.net/problem=2"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Mario Carbonell"
+
+"20":
+  title: "Sorting an array using insertion sort"
+  difficulty: "Beginner"
+  source: "pepcoding.com"
+  body: |
+    <strong>
+      Problem that highlights the insertion sort algorithm.
+    </strong>
+    <br>
+     Given an array of integers, sort it in an ascending order
+     using insertion sort.
+    </br>
+    <a href="https://bit.ly/pepcoding-insertion-sort"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Davis Omokaro"
+
+"19":
+  title: "Valid Anagram"
+  difficulty: "Beginner"
+  source: "LeetCode"
+  body: |
+    <strong>
+      This is a beginner problem involving strings,
+      comparisons and hash tables.
+    </strong>
+    <br>
+      Given two strings s and t, return true if
+      t is an anagram of s, and false otherwise.
+    </br>
+    <a href="https://leetcode.com/problems/valid-anagram/"
+    target="_blank"> 🔗 LeetCode - Valid Anagram</a>
+  author_name: "Maeling Murphy"
+
+"18":
+  title: "Maximum Subarray"
+  difficulty: "Beginner"
+  source: "LeetCode"
+  body: |
+    <strong>
+    This is an easy level problem that can be used
+     to solve a lot of algorithms.
+      It uses a pattern known as the 'Sliding Window' technique.
+      Many algorithms in which you would implement a sliding window,
+      uses words like 'sum','continous' or 'contigous'.
+    </strong>
+    <br>
+      Given an integer array called nums, find the contiguous
+      subarray (containing at least one number) which has the largest
+      sum and return its sum.
+    </br>
+    <a href="https://leetcode.com/problems/maximum-subarray/"
+    target="_blank"> 🔗 Leetcode - Max Subarray</a>
+  author_name: "Dolly Desir"
+
+"17":
+  title: "JavaScript 3 FizzBuzz Solutions, Including the Shortest"
+  difficulty: "Beginner"
+  source: "Dev Genius"
+  body: |
+    <strong>
+      Three ways to answer FizzBuzz using Javascript.
+    </strong>
+    <br>
+     FizzBuzz is quite the popular coding question.
+    </br>
+    <br>
+     If you haven't tried to tackle the problem then give this article a read!
+    </br>
+    <a href="https://tinyurl.com/hd3smmuk"
+    target="_blank">🔗 FizzBuzz Solutions Link!</a>
+  author_name: "Jadiva Montealegre"
+
+"16":
+  title: "Bubble Sort"
+  difficulty: "Beginner"
+  source: "Algorithms: Explained and Animated"
+  body: |
+    <strong>
+      Video animations to illustrate how data moves during bubble sort.
+    </strong>
+    <br>
+     Visualize bubble sort & other algorithms with free Android/iPhone apps.
+    </br>
+    <a href="https://www.youtube.com/watch?v=54fOXwu_5Es"
+    target="_blank">🔗 Bubble Sort Visualization Link!</a>
+  author_name: "Tiffany"
+
+"15":
+  title: "Multiples of 3 and 5"
+  difficulty: "Beginner"
+  source: "ProjectEuler.net"
+  body: |
+    <strong>
+      This also is a beginner problem. It will allow you to think
+      through the steps of a straightforward mathematical problem,
+      and solve it in it's component steps.
+    </strong>
+    <br>
+     Sum all the multiples of 3 or 5 below 1000.
+    </br>
+    <a href="https://projecteuler.net/problem=1"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Eamonn Cottrell"
+
+"14":
+  title: "Convert Age to Days"
+  difficulty: "Beginner"
+  source: "Edabit.com"
+  body: |
+    <strong>
+      This is a beginner problem that works with conversion of different
+       time measurements. This site is great for having very
+        basic to more advanced problems of every topic.
+    </strong>
+    <br>
+     Create a function that takes the age in years and returns the age in days.
+    </br>
+    <a href="https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Manon Sainton"
+
+"13":
+  title: "Sort Array By Parity"
+  difficulty: "Beginner"
+  source: "LeetCode"
+  body: |
+    <strong>
+      Practice array manipulation with
+       different problem solving approaches.
+    </strong>
+    <br>
+     Given an integer array, move all the even integers
+      at the beginning of the array followed by
+      all the odd integers.
+    <br>
+    <a href="​​https://leetcode.com/problems/sort-array-by-parity/"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Kevin Minutti"
+
+"12":
+  title: "Binary Search"
+  difficulty: "Beginner"
+  source: "Binary Search"
+  body: |
+    <strong>
+     Learn Algorithms Together
+    </strong>
+    <br>
+      Join or create a room, invite your friends, and get ready to
+       solve problems together.
+     You'll all get the same coding question to solve.
+     Only you can see your editor.
+     Chat and solve questions together. Once you're done, you can
+      browse other people's solutions.
+    </br>
+    <a href="https://binarysearch.com/"
+    target="_blank">🔗 Binary Search Website!</a>
+  author_name: "Hulya Karakaya"
+
+"11":
+  title: "How to Prepare for Technical Interviews"
+  difficulty: "Beginner"
+  source: "YouTube"
+  body: |
+    <strong>
+      A very meaningful and pragmatic way of approaching leetcode problems
+    </strong>
+    <br>
+      Follow this strategy to effectively prepare for your technical
+       interviews!
+    </br>
+    <a href="https://www.youtube.com/watch?v=7UlslIXHNsw"
+    target="_blank">🔗 How to Prepare for Technical Interviews Link!</a>
+  author_name: "Amy Cai"
+
+"10":
+  title: "Sales by Match"
+  difficulty: "Beginner"
+  source: "Hacker Rank"
+  body: |
+    <strong>
+      A fun and easy frequency counter problem
+    </strong>
+    <br>
+      There is a large pile of socks that must be paired
+      by color. Given an array of integers representing
+      the color of each sock, determine how many pairs of
+      socks with matching colors there are.
+    </br>
+    <a href="https://www.hackerrank.com/challenges/sock-merchant/problem"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Mario Carbonell"
+
+"9":
+  title: "Flexbox Learning Tool"
+  difficulty: "Beginner"
+  source: "Flexbox Defense"
+  body: |
+    <strong>
+      This is a nice interactive game for
+       learning how to use Flexbox in CSS.
+    </strong>
+    <br>
+      Use Flexbox properties to move towers into the
+       right defensive positions.
+      This game can help one better understand how
+       to effectively use and optimize
+       CSS Flexbox styling.
+    <br>
+    <a href="https://http://www.flexboxdefense.com/"
+    target="_blank">🔗 CSS Flexbox Tower Defense Game!</a>
+  author_name: "Johnathan Raiss"
+"8":
+  title: "Single Number"
+  difficulty: "Beginner"
+  source: "Leetcode"
+  body: |
+    <strong>
+      A great easy problem to practice sorting!
+    </strong>
+    <br>
+      Given a non-empty array of integers nums,
+        every element appears twice except for one.
+      Find that single one.<br>
+    <br>
+    <a href="https://leetcode.com/problems/single-number/"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Kirill Grinash"
+
+"7":
+  title: "1000-digit Fibonacci Number"
+  difficulty: "Beginner"
+  source: "ProjectEuler"
+  body: |
+    <strong>
+      This is a great problem for developing mathematical understanding while
+       solving a programming question.
+    </strong>
+    <br>
+      Find the index of first 1000 digit fibonacci number.
+    <br>
+    <a href="https://projecteuler.net/problem=25"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Sourav Singh Rawat"
+
+"6":
+  title: "Palindrome Linked List"
+  difficulty: "Beginner"
+  source: "LeetCode"
+  body: |
+    <strong>
+      This is an excellent introduction to linked lists!
+    </strong>
+    <br>
+      Given the head of a singly linked list, return true if it is a palindrome.
+    <br>
+    <a href="https://leetcode.com/problems/palindrome-linked-list/"
+    target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Jesse Smith"
+
+"5":
+  title: "Tutorial for Interview Prep"
+  difficulty: "Beginner"
+  source: "PassMyInterview"
+  body: |
+    <strong>
+      This is a brilliant training tutorial to pass any job
+       interview in one attempt!
+    </strong>
+    <br>
+      If you have any any job interview coming up, make sure
+       you study this brilliant
+       training tutorial from start to finish!
+      It is guaranteed to help you PASS your interview!
+      This resource has helped countless number of persons from all
+       fields ace their interview.<br>
+    <br>
+    <a href="https://passmyinterview.com/top-30-interview-questions-answers/"
+     target="_blank">🔗 TOP 30 INTERVIEW QUESTIONS and Answers</a>
+  author_name: "Anita Ihuman"
+
+"4":
+  title: "Valid Parentheses"
+  difficulty: "Beginner"
+  source: "LeetCode"
+  body: |
+    <strong>
+      This is a great introduction to the Stack data structure!
+    </strong>
+    <br>
+      Given a string s containing just the characters '(', ')', ' {', '}',
+       '[' and ']', determine if the input string is   valid.
+    <br>
+      An input string is valid if:
+      Open brackets must be closed by the same type of brackets.
+      Open brackets must be closed in the correct order. <br>
+    <br>
+    <a href="https://leetcode.com/problems/valid-parentheses/"
+     target="_blank">🔗 Code Challenge Link!</a>
+  author_name: "Jesus Quezada"
 
 "4":
   title: "Valid Parentheses"
@@ -25,10 +350,14 @@
   source: "LeetCode"
   body: |
     <strong>This is a good problem for learning graph traversal!</strong><br>
-    Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands. <br>
-    An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water. <br>
+    Given an m x n 2D binary grid grid which represents a map of '1's (land)
+     and '0's (water), return the number of islands. <br>
+    An island is surrounded by water and is formed by connecting adjacent
+     lands horizontally or vertically. You may assume all four edges of
+      the grid are all surrounded by water. <br>
     <br>
-    <a href="https://leetcode.com/problems/number-of-islands/" target="_blank">🔗 Code Challenge Link!</a>
+    <a href="https://leetcode.com/problems/number-of-islands/"
+     target="_blank">🔗 Code Challenge Link!</a>
   author_name: "Trevor"
 
 "2":
@@ -36,11 +365,14 @@
   difficulty: "Beginner"
   source: "Leetcode"
   body: |
-    <strong>This link is a great beginner-level algorithm focused on strings!</strong><br>
-    Write a function to find the longest common prefix string amongst an array of strings. <br>
+    <strong>This link is a great beginner-level algorithm focused
+     on strings!</strong><br>
+    Write a function to find the longest common prefix string amongst
+     an array of strings. <br>
     If there is no common prefix, return an empty string "".<br>
     <br>
-    <a href="https://leetcode.com/problems/longest-common-prefix/" target="_blank">🔗 Code Challenge Link!</a>
+    <a href="https://leetcode.com/problems/longest-common-prefix/"
+     target="_blank">🔗 Code Challenge Link!</a>
   author_name: "Kristal"
 
 "1":
@@ -48,7 +380,12 @@
   difficulty: "Beginner"
   source: "Codewars"
   body: |
-    Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number. <br>
-    For example: month 2 (February), is part of the first quarter; month 6 (June), is part of the second quarter; and month 11 (November), is part of the fourth quarter.<br>
+    Given a month as an integer from 1 to 12, return to which quarter
+     of the year it belongs as an integer number. <br>
+    For example: month 2 (February), is part of the first quarter; month
+     6 (June), is part of the second quarter; and month 11 (November),
+      is part of the fourth quarter.<br>
     <br>
-    <a href="https://www.codewars.com/kata/5ce9c1000bab0b001134f5af/train/python" target="_blank">🔗 Code Challenge Link!</a>
+    <a
+     href="https://www.codewars.com/kata/5ce9c1000bab0b001134f5af/train/python"
+     target="_blank">🔗 Code Challenge Link!</a>
