@@ -51,14 +51,9 @@ any little bit of help counts! 😊
 - [Johnathan Raiss](https://github.com/johnny112f)
 - [Trevor Tomlin](https://github.com/trevortomlin)
 - [Jesus Quezada](https://github.com/machinesandpixels)
-<<<<<<< HEAD
 - [Anita Ihuman](https://github.com/Anita-ihuman)
 - [Jesse Smith](https://github.com/jessesmith-13)
 - [Sourav Singh Rawat](https://github.com/frostzt)
-<<<<<<< HEAD
-=======
->>>>>>> jesusQuezada
-=======
 - [Kirill Grinash](https://github.com/kirillgrinash)
 - [Mario Carbonell](https://github.com/mgcarbonell)
 - [Hulya Karakaya](https://github.com/hulyak)
@@ -70,7 +65,6 @@ any little bit of help counts! 😊
 - [Jadiva Montealegre](https://github.com/jadivam)
 - [Maeling Murphy](https://github.com/maelingmurphy)
 - [Davis Omokaro](https://github.com/maelingmurphy)
->>>>>>> yearone/main
 
 ## Continuous Deployment Pipeline
 
