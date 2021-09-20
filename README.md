@@ -48,6 +48,8 @@ any little bit of help counts! 😊
 - [Rafael Castellanos-Welsh](https://github.com/rafawelsh)
 
 #### Contributors
+
+- [Pedro Ramirez](https://github.com/pramirez2328)
 - [Johnathan Raiss](https://github.com/johnny112f)
 - [Trevor Tomlin](https://github.com/trevortomlin)
 - [Jesus Quezada](https://github.com/machinesandpixels)

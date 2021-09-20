@@ -1,17 +1,24 @@
----
-# See the contributing guidelines for details on the formatting here.
 "22":
-  title: "How to Break Into the Tech Industry—a Guide to Job Hunting and Tech Interviews"
+  title: "Roman to integer"
   difficulty: "Beginner"
-  source: "Haseeb Qureshi | haseebq.com"
+  source: "Leetcode"
   body: |
-    <strong>
-      This is a fantastic blog post by Haseeb Qureshi on Job Hunting and Tech Interviews
-    </strong>
+    <strong>Algorithm focused on string manipulation!</strong><br>
+    Find the integer value of a given roman string. <br>
+    Roman numerals are represented by symbols I, V, X, L, C, D and M.<br>
+    Roman numerals are written largest to smallest from left to right.<br>
+    However, 4 is not IIII. Instead, the number four is written as IV.<br>
+    Same principle applies to the number 9, which is written as IX. <br>
+    There are six instances where subtraction is used:<br>
+
+    I can be placed before V (5) and X (10) to make 4 and 9. <br>
+    X can be placed before L (50) and C (100) to make 40 and 90. <br>
+    C can be placed before D (500) and M (1000) to make 400 and 900. <br>
+
     <br>
-    <a href="https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/"
-     target="_blank">🔗 How to Break Into the Tech Industry—a Guide to Job Hunting and Tech Interviews Link!</a>
-  author_name: "Jesus Quezada"
+    <a href="https://leetcode.com/problems/roman-to-integer/"
+    target="_blank">Leetcode challenge Link!</a>
+  author_name: "Pedro Ramirez"
 
 "21":
   title: "Even Fibonacci Numbers"
