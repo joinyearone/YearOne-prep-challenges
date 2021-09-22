@@ -1,3 +1,20 @@
+---
+# See the contributing guidelines for details on the formatting here.
+"23":
+  title: "How to Break Into the Tech Industry"
+  difficulty: "Beginner"
+  source: "haseebq.com"
+  body: |
+    <strong>
+      This is a fantastic blog post by Haseeb Qureshi
+    </strong>
+    <br>
+      How to break into tech job hunting and interviews
+    </br>
+    <a href="https://bit.ly/3tYwIFF" target="_blank">
+    🔗 Blog post Link!</a>
+  author_name: "Jesus Quezada"
+
 "22":
   title: "Roman to integer"
   difficulty: "Beginner"
