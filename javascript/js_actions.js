@@ -64,4 +64,4 @@ const postQuestion = async (question, questionNumber) => {
 		.catch((error) => console.log("error", error));
 };
 
-export default { postQuestion };
+export {postQuestion}
