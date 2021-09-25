@@ -12,6 +12,8 @@ COMMUNITY_ID = os.environ.get("COMMUNITY_ID")
 CIRCLE_COMMUNITY_PATH = os.environ.get("CIRCLE_COMMUNITY_PATH")
 DAILY_SPACE_ID = os.environ.get("DAILY_SPACE_ID")
 TOPICS_PATH = "./topics.yaml"
+DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK")
+
 
 
 def read_topics_yaml(yml_file=TOPICS_PATH):
@@ -85,3 +87,18 @@ def get_post_count(space_id):
         return post_count
     except Exception as e:
         return f"{e}"
+
+
+def send_to_dicord(embed):
+    """
+    Sends a POST request to a discord webhook, posting the contents to the designated channel 
+    """
+    try:
+        headers = {'Content-type': 'application/json'}
+        response = requests.request("POST",
+                                    DISCORD_WEBHOOK,
+                                    headers=headers,
+                                    data=embed)
+        return response.text
+    except Exception as e:
+        return f"Error on discord post: {e}"

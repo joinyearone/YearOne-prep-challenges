@@ -6,7 +6,6 @@ import urllib.parse
 import py_actions
 
 BINARYSEARCH_TOKEN = os.environ.get("BINARYSEARCH_TOKEN")
-
 day_of_week = datetime.date.today().isoweekday()
 
 def createContest():
@@ -95,6 +94,31 @@ def format_post_body(contestURL):
         return f"{f}"
 
 
+def format_discord_embed(URL):
+    hex_color = 16237843
+    myEmbed = {
+        "thumbnail": {
+            "url": "https://cdn.mee6.xyz/guild-images/801245582626258974/8a3c817dfac1975dd654a9e61f077e44e28e7b85623873b9e21faca7491db557.png"
+        },
+        "title": "💪 Join the daily algorithm practice room!",
+        "description": """Monday through Friday we run a dail algorithm challenge on Binary Search.\n
+                          The questions get more difficult throughout the week, with Friday having Medium and Hard level questions.\n
+                          Join the room, attempt the challenges, and feel free to chat and ask questions to anyone else participating!\n""",
+        "fields": [{
+            "name": "🏆 Join the challenge!",
+            "value": URL
+        }],
+        "color": hex_color,
+        "footer": {"text": "This bot is generated through the YearOne open-source project. Check it out and contribute at https://github.com/YearOne-Prep/YearOne-prep-challenges"}
+        }
+
+    params = {
+        "username": "YearOne Daily Algorithm Party!",
+        "embeds": [ myEmbed ]
+        }
+    params = json.dumps(params)
+    return params
+
 def actions():
     """
     Calls required functions to choose topic, format text body, and post to Circle.
@@ -109,6 +133,8 @@ def actions():
         title, post_body = format_post_body(contestURL)
 
         py_actions.post_to_circle(py_actions.DAILY_SPACE_ID, title, post_body)
+
+        py_actions.send_to_dicord(format_discord_embed(contestURL))
 
     except Exception as e:
         return e
