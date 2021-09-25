@@ -1,5 +1,3 @@
-import fetch from "node-fetch";
-
 const API_TOKEN = process.env.API_TOKEN;
 const COMMUNITY_ID = process.env.COMMUNITY_ID;
 const CIRCLE_COMMUNITY_PATH = process.env.CIRCLE_COMMUNITY_PATH;
