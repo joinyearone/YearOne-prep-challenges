@@ -1,5 +1,19 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"24":
+  title: "How to Remove Array Duplicates in ES6"
+  difficulty: "Beginner"
+  source: "Medium - Daily JS"
+  body: |
+    <strong>
+      Awesome blog post outlining 3 easy ways to remove duplicates in arrays with ES6
+    </strong>
+    <br>
+      Very useful when having to solve problems like this in technical interviews!
+    </br>
+    <a href="https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c" target="_blank">
+    🔗 Blog post Link!</a>
+  author_name: "Samantha Ming"
 "23":
   title: "How to Break Into the Tech Industry"
   difficulty: "Beginner"
