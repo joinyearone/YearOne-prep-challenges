@@ -67,6 +67,7 @@ any little bit of help counts! 😊
 - [Jadiva Montealegre](https://github.com/jadivam)
 - [Maeling Murphy](https://github.com/maelingmurphy)
 - [Davis Omokaro](https://github.com/maelingmurphy)
+- [Audrey Patterson](https://github.com/arpatterson31)
 
 ## Continuous Deployment Pipeline
 
