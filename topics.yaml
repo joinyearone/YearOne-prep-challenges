@@ -1,5 +1,57 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"24":
+  title: "How to Remove Array Duplicates in ES6"
+  difficulty: "Beginner"
+  source: "Medium - Daily JS"
+  body: |
+    <strong>
+      3 easy ways to remove duplicates in arrays
+    </strong>
+    <br>
+      Quick and easy!
+    </br>
+    <a href="https://bit.ly/3FtTPxb" target="_blank">
+    🔗 Blog post Link!</a>
+  author_name: "Samantha Ming"
+
+"23":
+  title: "How to Break Into the Tech Industry"
+  difficulty: "Beginner"
+  source: "haseebq.com"
+  body: |
+    <strong>
+      This is a fantastic blog post by Haseeb Qureshi
+    </strong>
+    <br>
+      How to break into tech job hunting and interviews
+    </br>
+    <a href="https://bit.ly/3tYwIFF" target="_blank">
+    🔗 Blog post Link!</a>
+  author_name: "Jesus Quezada"
+
+"22":
+  title: "Roman to integer"
+  difficulty: "Beginner"
+  source: "Leetcode"
+  body: |
+    <strong>Algorithm focused on string manipulation!</strong><br>
+    Find the integer value of a given roman string. <br>
+    Roman numerals are represented by symbols I, V, X, L, C, D and M.<br>
+    Roman numerals are written largest to smallest from left to right.<br>
+    However, 4 is not IIII. Instead, the number four is written as IV.<br>
+    Same principle applies to the number 9, which is written as IX. <br>
+    There are six instances where subtraction is used:<br>
+
+    I can be placed before V (5) and X (10) to make 4 and 9. <br>
+    X can be placed before L (50) and C (100) to make 40 and 90. <br>
+    C can be placed before D (500) and M (1000) to make 400 and 900. <br>
+
+    <br>
+    <a href="https://leetcode.com/problems/roman-to-integer/"
+    target="_blank">Leetcode challenge Link!</a>
+  author_name: "Pedro Ramirez"
+
 "21":
   title: "Even Fibonacci Numbers"
   difficulty: "Beginner"

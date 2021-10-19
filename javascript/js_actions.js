@@ -58,12 +58,27 @@ const postQuestion = async (question, questionNumber) => {
 		return url_pieces.join("");
 	}
 
-	await fetch(url, requestOptions)
-		.then((response) => response.json())
-		.then((result) => {
-			console.log(result);
-		})
-		.catch((error) => console.log("error", error));
+	// Updated Fetch request with baseURL
+	const baseURL = 'http://localhost';
+
+	try {
+		const response = await fetch(new URL(url, baseURL, requestOptions));
+		console.log(response.json());
+		return response.json();
+	}
+
+	catch (err) {
+		console.log(err);
+	}
+
+	// Previous Fetch request with error TypeError: Only absolute URLs are supported
+
+	// await fetch(url, requestOptions)
+	// 	.then((response) => response.json())
+	// 	.then((result) => {
+	// 		console.log(result);
+	// 	})
+	// 	.catch((error) => console.log("error", error));
 };
 
 module.exports = { postQuestion };

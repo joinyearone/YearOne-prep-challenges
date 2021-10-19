@@ -48,6 +48,8 @@ any little bit of help counts! 😊
 - [Rafael Castellanos-Welsh](https://github.com/rafawelsh)
 
 #### Contributors
+
+- [Pedro Ramirez](https://github.com/pramirez2328)
 - [Johnathan Raiss](https://github.com/johnny112f)
 - [Trevor Tomlin](https://github.com/trevortomlin)
 - [Jesus Quezada](https://github.com/machinesandpixels)
@@ -65,6 +67,7 @@ any little bit of help counts! 😊
 - [Jadiva Montealegre](https://github.com/jadivam)
 - [Maeling Murphy](https://github.com/maelingmurphy)
 - [Davis Omokaro](https://github.com/maelingmurphy)
+- [Audrey Patterson](https://github.com/arpatterson31)
 
 ## Continuous Deployment Pipeline
 
