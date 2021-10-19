@@ -11,9 +11,11 @@
     <br>
       Given the `root` of a binary tree, return the zigzag level
       order traversal of its nodes' values (i.e. from left to right,
-      then right to left for the next level and alternate between). 
+      then right to left for the next level and alternate between).
     </br>
-    <a href="https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/" target="_blank">
+    <a
+    href="https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/"
+    target="_blank">
     🔗 Leetcode Link!</a>
   author_name: "Mario Carbonell"
 
