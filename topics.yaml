@@ -1,5 +1,24 @@
 ---
 # See the contributing guidelines for details on the formatting here.
+"25":
+  title: "Binary Tree Zigzag Level Order Traversal"
+  difficulty: "Medium"
+  source: "Leetcode"
+  body: |
+    <strong>
+      Binary Tree Traversal
+    </strong>
+    <br>
+      Given the `root` of a binary tree, return the zigzag level
+      order traversal of its nodes' values (i.e. from left to right,
+      then right to left for the next level and alternate between).
+    </br>
+    <a
+    href="https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/"
+    target="_blank">
+    🔗 Leetcode Link!</a>
+  author_name: "Mario Carbonell"
+
 "24":
   title: "How to Remove Array Duplicates in ES6"
   difficulty: "Beginner"
