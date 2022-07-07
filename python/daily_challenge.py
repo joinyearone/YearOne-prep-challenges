@@ -101,7 +101,7 @@ def format_discord_embed(URL):
             "url": "https://cdn.mee6.xyz/guild-images/801245582626258974/8a3c817dfac1975dd654a9e61f077e44e28e7b85623873b9e21faca7491db557.png"
         },
         "title": "💪 Join the daily algorithm practice room!",
-        "description": """Monday through Friday we run a dail algorithm challenge on Binary Search.\n
+        "description": """Monday through Friday we run a daily algorithm challenge on Binary Search.\n
                           The questions get more difficult throughout the week, with Friday having Medium and Hard level questions.\n
                           Join the room, attempt the challenges, and feel free to chat and ask questions to anyone else participating!\n""",
         "fields": [{
